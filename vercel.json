@@ -1,1 +1,14 @@
-{"framework":"nextjs","cleanUrls":true,"trailingSlash":false}
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.tinyhousekopennederland.nl" }],
+      "destination": "https://tinyhousekopennederland.nl/$1",
+      "permanent": true
+    }
+  ]
+}
