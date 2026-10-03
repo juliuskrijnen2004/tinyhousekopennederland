@@ -1,0 +1,1 @@
+"use client";export default function Error({reset}:{reset:()=>void}){return <section className="success"><h1>Er ging iets mis</h1><p>De pagina kon niet worden geladen.</p><button className="button" onClick={reset}>Probeer opnieuw</button></section>}

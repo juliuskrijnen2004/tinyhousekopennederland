@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import LeadWizard from "@/components/lead-wizard";export const metadata:Metadata={title:"Vrijblijvend tiny house aanvragen",description:"Vertel ons in enkele stappen welk tiny house je zoekt.",robots:{index:false,follow:true}};export default function Page(){return <div className="wizard-wrap"><LeadWizard/></div>}
